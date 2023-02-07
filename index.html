@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font/stylesheet.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="innerheader">
+        <h1 class="logo">
+          <a href="#">
+            <img src="img/logo1.png" alt="로고">
+          </a>
+        </h1>
+        <nav class="mainmenu">
+          <ul class="gnb en">
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Capabilities</a></li>
+            <li><a href="#">Cases</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul class="sns">
+            <li>
+              <a href="#">
+                <img src="img/sns-icon01.png" alt="sns">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="img/sns-icon02.png" alt="sns">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="img/sns-icon03.png" alt="sns">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="img/sns-icon04.png" alt="sns">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="visual clearfix">
+      <div class="mainImg">
+        <p class="img animate" data-animate="motion">
+          <img src="img/mainVisual.jpg" alt="mainVisual">
+        </p>
+      </div>
+      <!--//mainImg-->
+      <div class="mainTxt">
+        <h2 class="tit en animate" data-animate="motion">
+          <span class="en_s">
+            <b>Digital experience integrated platform – musign</b>
+          </span>
+          <span>
+            <b>Powerful and useful</b>
+          </span>
+          <span class="gray">
+            <b>Musign W. Platform</b>
+          </span>
+        </h2>
+        <div class="txt animate" data-animate="motion">
+          <p><b>“브랜드의 가치를 디자인하는 뮤자인은 디지털 아티스트 컴퍼니입니다.”</b></p>
+          <p><b>우리의 바램은 작품 하나하나에 창조적이고 유니크한 솔루션을 제공하는 것입니다.<br>
+              고객의 니즈에 따라 커스텀이 자유로우며 고도화된 기능을 자랑하는 플랫폼인 ‘musign W.Platform’<br>
+              은 뮤자인이 가지고 있는 수많은 노하우의 결과입니다.</b></p>
+          <p><b><a href="#" class="moreBtn">read more</a></b></p>
+        </div>
+      </div>
+      <!--//mainTxt-->
+    </section>
+    <!--//visual-->
+
+    <section class="jurnal">
+      <p class="scroll">scroll</p>
+      <div class="circleBox">
+        <svg class="svgAni" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1984.25 1984.25"
+          style="enable-background:new 0 0 1984.25 1984.25;" xml:space="preserve">
+          <style type="text/css">
+            .st0 {
+              fill: none;
+              stroke: #f5f5f5;
+              stroke-width: 25;
+              stroke-miterlimit: 10;
+            }
+          </style>
+          <path class="st0"
+            d="M990.51,42c526.88,0,954,427.12,954,954s-427.12,954-954,954s-954-427.12-954-954S463.63,42,990.51,42" />
+        </svg>
+      </div>
+      <!--//circleBox-->
+      <div class="inner">
+        <div class="box">
+          <p class="img animate" data-animate="motion">
+            <img src="img/img_01.jpg" alt="이미지">
+          </p>
+        </div>
+        <!--//box-->
+        <div class="box">
+          <h2 class="tit en">
+            <span class="en_s">we are winner</span>
+            <span><b>Journal</b></span>
+          </h2>
+          <ul>
+            <li>
+              <h3>17. Jan. 2020</h3>
+              <p>
+                2019 Award:SPECIALIZED Company Sector Winner!<br>
+                2019 Award:Health / Medical Sector Winner!<br>
+                2019 Award:Mid-sized Company Sector Winner!<br>
+                2019 Award:Beauty Sector Winner!
+              </p>
+            </li>
+            <li>
+              <h3>20. Nov. 2019</h3>
+              <p>
+                2019Internet Web-Awards:Web-Advertisement agency sector Winner!<br>
+                2019Internet Web-Awards:Cosmeticl E-commerce sector Finalist!
+              </p>
+            </li>
+            <li>
+              <h3>15. Oct. 2019</h3>
+              <p>
+                2019 Good-design Award Orinbe Package design Winner!
+              </p>
+            </li>
+            <li>
+              <h3>07. Oct. 2019</h3>
+              <p>
+                2019Internet ECO-Awards:Web-Access Innovation Winner!<br>
+                2019Internet ECO-Awards:Global business sector Winner!
+              </p>
+            </li>
+          </ul>
+          <p><a href="#" class="moreBtn">read more</a></p>
+        </div>
+        <!--//box-->
+      </div>
+      <!--//inner-->
+    </section>
+    <!--//jurnal-->
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <!--순서1-->
+  <script src="js/jquery.scrolla.min.js"></script>
+  <!--순서2-->
+
+  <script>
+    $('.animate').scrolla({
+      // default
+      mobile: false, // disable animation on mobiles
+      once: false, // only once animation play on scroll
+      animateCssVersion: 4 // used animate.css version (3 or 4)
+    });
+  </script>
+  <!--순서3-->
+</body>
+
+</html>
